@@ -1,0 +1,252 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+      background-image:url(https://static.vecteezy.com/system/resources/previews/021/156/205/large_2x/spring-tulip-flowers-on-pink-background-top-view-in-flat-lay-style-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 15vw;
+}
+#logo{
+    color: black;
+    margin: 0;
+    padding: 20;
+    font-weight: 900px;
+    background-color:whitesmoke;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    padding:15px 40px;
+    background-color: whitesmoke;
+   margin: 0px;  
+}
+a{
+color: black;
+text-decoration: none;
+align-items: center;
+text-align: center;
+padding:10px;
+gap: 70px;
+margin-left: 60px;
+margin-right: 60px;
+font-size: 15px;
+display:inline-block ;
+}
+a:hover{
+     background-color: rgb(241, 158, 194); 
+     transform: scale(1.05);
+     transition: 0.3s;
+}
+#iconsss{
+    display: inline-block;
+    margin-top: 10px;
+}
+#heroline{
+    margin-left: 40px;
+    margin-top: 70px;
+}
+h3{
+    color: black;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    position:relative;
+    top: 20px;
+}
+span{
+    color: rgb(233, 6, 104);
+    font-size: smaller;
+}
+#para{
+    font-size: large;
+    letter-spacing: 1.2px; 
+    margin-left: 20px; 
+    position:relative;
+    top: 25px;
+}
+button{
+    color: white;
+    background-color: black; 
+    margin: 10px;
+    height: 40px;
+    width: 150px;
+    border-radius: 40px;
+    margin-left:35px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 40px;
+    border: none;
+}
+button:hover{
+     background-color: rgb(233, 6, 104); 
+     transform: scale(1.05);
+     transition: 0.3s;
+}
+h2{
+    font-size:xx-large;
+    margin-top: 150px;
+    position: relative;
+    text-align: center;
+}
+#redrose{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEhkkdf_JFKHGiidahPl6HiggKc3v6R8QV6ieYhGwXxw&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid;
+    margin-left: 50px;
+     display:inline-block;
+     justify-content: space-evenly;
+}
+#pinkrose{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKLgCFqLPOaQHWcsH_7Tzu5FpXYK3gDz4PLVDAg-MKHw&s=10);
+     background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+  border: 1px solid;
+    margin-left: 70px;
+    text-align: center;
+     display:inline-block;
+      justify-content: space-evenly;
+}
+#sunflower{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvlKO3ou05RK533SVqU9hyLPKYsB1JHGiQLZkto9tXcQ&s=10);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+ height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid;
+    margin-left: 70px;
+    display:inline-block;
+    text-align: center;
+     justify-content: space-evenly;
+}   
+#whiterose{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCw7c1lP7dXOnGymAi4qyDvqhWNKK97RWvYtyLBOz366yI25yHjrWfe_o&s=10);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+ height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid;
+    margin-left: 68px;
+    display:inline-block;
+        text-align: center;
+         justify-content: space-evenly;
+    }
+    #tulip{
+    background-image: url(https://www.floristique.sg/cdn/shop/files/Violette1a_1800x1800.webp?v=1790432514);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+ height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid;
+    margin-left: 45px;
+    display:inline-block;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    #lily{
+    background-image: url(https://i.etsystatic.com/56380306/r/il/126a2e/8282263349/il_fullxfull.8282263349_14xa.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+ height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid;
+    margin-left: 60px;
+    display:inline-block;
+        text-align: center;
+         justify-content: space-evenly;
+    }
+    #daisy{
+    background-image: url(https://blooming.com.my/wp-content/uploads/2021/06/HD0302_800x800.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+ height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid;
+    margin-left: 60px;
+    display:inline-block;
+        text-align: center;
+         justify-content: space-evenly;
+        }
+         #marigold{
+    background-image: url(https://media.wishque.com/data/images/products/14636/73159140_387316088709_0.45193000-1783492537.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+ height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid;
+    margin-left: 60px;
+    display:inline-block;
+        text-align: center;
+         justify-content: space-evenly;
+}
+.h4{
+    color:black;
+    font-size: large;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 170px auto;
+}
+.footer{
+    background-color: #f5a6c1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:3px;
+    text-align: center;
+}
+.footer div{
+    color: #d45d79;
+    font-size: 18px;
+}
+.footer p{
+    font-size: 16px;
+    margin: 1px ;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+}
+#link{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+      font-weight: bold;
+}
+.icons{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
