@@ -7,7 +7,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    height: 15vw;
+    height: 700px;
+     margin: 0;
+    padding: 0;
+    width: 100%;
 }
 #logo{
     color: black;
@@ -21,7 +24,7 @@ header{
     justify-content: space-between;
     padding:15px 40px;
     background-color: whitesmoke;
-   margin: 0px;  
+    margin: 0px;  
 }
 a{
 color: black;
@@ -44,40 +47,41 @@ a:hover{
     display: inline-block;
     margin-top: 10px;
 }
-#heroline{
+#heroline{ 
     margin-left: 40px;
     margin-top: 70px;
 }
 h3{
     color: black;
-    font-size: xx-large;
+    font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 20px;
     position:relative;
-    top: 20px;
+    top: 70px;
 }
 span{
     color: rgb(233, 6, 104);
     font-size: smaller;
 }
 #para{
-    font-size: large;
+    font-size: 20px;
     letter-spacing: 1.2px; 
     margin-left: 20px; 
     position:relative;
-    top: 25px;
+    margin-top: 90px;
+    font-family: 'Times New Roman', Times, serif;
 }
 button{
     color: white;
     background-color: black; 
     margin: 10px;
-    height: 40px;
-    width: 150px;
+    height: 50px;
+    width: 200px;
     border-radius: 40px;
     margin-left:35px;
     font-family: Arial, sans-serif;
     position: relative;
-    top: 40px;
+    top: 30px;
     border: none;
 }
 button:hover{
@@ -86,13 +90,15 @@ button:hover{
      transition: 0.3s;
 }
 h2{
-    font-size:xx-large;
-    margin-top: 150px;
+    font-size:39px;
+    margin-top: 310px;
     position: relative;
     text-align: center;
+    color: rgb(233, 6, 104) ;
+    font-weight: bold;
 }
 #redrose{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEhkkdf_JFKHGiidahPl6HiggKc3v6R8QV6ieYhGwXxw&s=10);
+    background-image: url(https://www.petals.pk/cdn/shop/files/red-inferno-red-rose-bouquet-lahore.webp?v=1782163751);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -101,8 +107,10 @@ h2{
     padding: 10px;
     border: 1px solid;
     margin-left: 50px;
+    margin-top:90px;
      display:inline-block;
      justify-content: space-evenly;
+     border-radius: 19px;
 }
 #pinkrose{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKLgCFqLPOaQHWcsH_7Tzu5FpXYK3gDz4PLVDAg-MKHw&s=10);
@@ -112,12 +120,13 @@ h2{
     height: 300px;
     width: 200px;
     margin: 15px;
-    padding: 10px;
+      padding: 10px;
   border: 1px solid;
     margin-left: 70px;
     text-align: center;
      display:inline-block;
       justify-content: space-evenly;
+      border-radius: 19px;
 }
 #sunflower{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvlKO3ou05RK533SVqU9hyLPKYsB1JHGiQLZkto9tXcQ&s=10);
@@ -133,6 +142,7 @@ h2{
     display:inline-block;
     text-align: center;
      justify-content: space-evenly;
+     border-radius: 19px;
 }   
 #whiterose{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCw7c1lP7dXOnGymAi4qyDvqhWNKK97RWvYtyLBOz366yI25yHjrWfe_o&s=10);
@@ -148,6 +158,7 @@ h2{
     display:inline-block;
         text-align: center;
          justify-content: space-evenly;
+         border-radius: 19px;
     }
     #tulip{
     background-image: url(https://www.floristique.sg/cdn/shop/files/Violette1a_1800x1800.webp?v=1790432514);
@@ -155,7 +166,7 @@ h2{
     background-position:center;
     background-size: cover;
  height: 300px;
-    width: 200px;
+  width: 200px;
     margin: 30px;
     padding: 10px;
     border: 1px solid;
@@ -163,6 +174,7 @@ h2{
     display:inline-block;
         text-align: center;
         justify-content: space-evenly;
+        border-radius: 19px;
     }
     #lily{
     background-image: url(https://i.etsystatic.com/56380306/r/il/126a2e/8282263349/il_fullxfull.8282263349_14xa.jpg);
@@ -173,11 +185,12 @@ h2{
     width: 200px;
     margin: 30px;
     padding: 10px;
-    border: 1px solid;
+     border: 1px solid;
     margin-left: 60px;
     display:inline-block;
         text-align: center;
          justify-content: space-evenly;
+         border-radius: 19px;
     }
     #daisy{
     background-image: url(https://blooming.com.my/wp-content/uploads/2021/06/HD0302_800x800.jpg);
@@ -193,6 +206,7 @@ h2{
     display:inline-block;
         text-align: center;
          justify-content: space-evenly;
+         border-radius: 19px;
         }
          #marigold{
     background-image: url(https://media.wishque.com/data/images/products/14636/73159140_387316088709_0.45193000-1783492537.jpg);
@@ -205,9 +219,10 @@ h2{
     padding: 10px;
     border: 1px solid;
     margin-left: 60px;
-    display:inline-block;
+      display:inline-block;
         text-align: center;
          justify-content: space-evenly;
+         border-radius: 19px;
 }
 .h4{
     color:black;
@@ -216,37 +231,30 @@ h2{
     flex-direction: column;
     align-items: center;
     margin-bottom: 170px auto;
+    border-radius: 19px;
 }
-.footer{
-    background-color: #f5a6c1;
+ .footer {
+    background-color:#ffb4cd;
+    padding: 30px;
+    text-align: center;
+     margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.footer-content {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding:3px;
-    text-align: center;
 }
-.footer div{
-    color: #d45d79;
-    font-size: 18px;
+.footer h3 {
+    color: #e91e63;
+    margin-bottom: 80px;
 }
-.footer p{
-    font-size: 16px;
-    margin: 1px ;
-    font-family: Arial, Helvetica, sans-serif;
-    display:flex;
+.footer p {
+    color: #555;
+    font-size: 15px;
 }
-#link{
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 50px;
-    font-size: 25px;
-    justify-content: center;
-    display: flex;
-      font-weight: bold;
+.copyright {
+    border-top: 1px solid pink;
+    padding-top: 15px;
+    margin-top: 20px;
 }
-.icons{
-    flex-direction: row;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-}
-
